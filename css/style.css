@@ -1,4 +1,12 @@
+/* body tag */
+body{
+    /* Google Fonts: Ubuntu */
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0%;
+}
+
+/* container class*/
 .container{
-    color: aqua;
+    color: orange;
     text-align: center;
 }
