@@ -5,8 +5,64 @@ body{
     margin: 0%;
 }
 
-/* container class */
-.container{
-    color: orange;
+/* Cover Page ID */
+#cover-page{
+    background-image: url(/images/donation9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+}
+
+/* Cover Section Text ID */
+#cover-text{
+    display: flex;
+}
+
+/* Cover Section H1 Tag Spane 1 color */
+#spn-color1{
+    color:orange
+}
+
+/* Cover Section H1 Tag Spane 2 color */
+#spn-color2{
+    color:orange
+}
+
+/* Cover Section H1 tag */
+#cover-text-top {
+    color: white;
+    font-size: 70px;
     text-align: center;
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+/* Cover Section P tag  */
+#cover-text-par {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+
+.donate-btn{
+    color: white;
+    background-color: tomato;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 50%;
+    border-radius: 5px;
+    border: 2px solid aliceblue;
+}
+
+#donate-today{
+    display: flex;
 }
