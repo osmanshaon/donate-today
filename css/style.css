@@ -7,7 +7,8 @@ body{
 
 /* Cover Page ID */
 #cover-page{
-    background-image:url(/images/donation-cover.jpg);
+
+    background-image: url(/images/donation14.webp);
     background-repeat: no-repeat;
     background-size: cover;
     height: 720px;
@@ -147,6 +148,29 @@ body{
     box-shadow: 10px 10px 40px white;
     border-radius: 10px;
 }
+
+.contribute-page{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.contribute-text{
+    width: 50%;
+    text-align: justify;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contribute-btn{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
 
 #input-btn{
     font-size: 35px
