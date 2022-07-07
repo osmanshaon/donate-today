@@ -144,6 +144,11 @@ body{
     font-family: fantasy;
     text-align: center;
     padding: 3px;
-    background-color: gray;
+    background-color: black;
     color: white;
+  }
+
+  /* Footer H3 tag */
+  footer h3{
+    color:aqua;
   }
