@@ -14,7 +14,7 @@ body{
 }
 
 /* Cover Section Text ID */
-#cover-text{
+.cover-text{
     display: flex;
 }
 
