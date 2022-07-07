@@ -7,15 +7,11 @@ body{
 
 /* Cover Page ID */
 #cover-page{
+    display: flex;
     background-image: url(/images/donation9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 720px;
-}
-
-/* Cover Section Text ID */
-.cover-text{
-    display: flex;
 }
 
 /* Cover Section H1 Tag Spane 1 color */
@@ -61,6 +57,7 @@ body{
     padding: 10px;
     margin-top: 10px;
     margin-left: 50%;
+    margin-bottom: 100px;
     border-radius: 5px;
 }
 
@@ -97,4 +94,56 @@ body{
 
   .input-line{
     margin: 10px;
+  }
+
+  .donate-plan{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.boxes{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.box1{
+    background-color: aliceblue;
+    width: 50%;
+    margin-left: 15%;
+    margin-right: 2%;
+    padding: 10px;
+    box-shadow: 10px 10px 40px white;
+    border-radius: 10px;
+}
+
+.box2{
+    background-color: #F4CCD8;
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 10px;
+    box-shadow: 10px 10px 40px white;
+    border-radius: 10px;
+}
+
+.box3{
+    background-color: #F7E8A6;
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 15%;
+    padding: 10px;
+    box-shadow: 10px 10px 40px white;
+    border-radius: 10px;
+}
+
+
+
+/* Footer  */
+  footer {
+    font-family: fantasy;
+    text-align: center;
+    padding: 3px;
+    background-color: gray;
+    color: white;
   }
