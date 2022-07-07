@@ -6,8 +6,9 @@ body{
 }
 
 /* Cover Page ID */
-#cover-page{
-    /* background-image: url(/images/donation14.webp); */
+#header{
+    display: flex;
+    background-image: url(/images/donation-cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 720px;
