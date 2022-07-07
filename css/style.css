@@ -5,11 +5,13 @@ body{
     margin: 0%;
 }
 
+.test{
+    display: flex;
+}
 /* Cover Page ID */
 #cover-page{
-    display: flex;
-    background-image: url("/images/donation9.jpg");
-    background-repeat: no-repeat;
+    background-image:url(/images/donation-cover.jpg);
+    /* background-repeat: no-repeat; */
     background-size: cover;
     height: 720px;
 }
@@ -135,6 +137,12 @@ body{
     padding: 10px;
     box-shadow: 10px 10px 40px white;
     border-radius: 10px;
+}
+
+
+.email-box{
+    display: flex;
+    background-color: #F7E8A6;
 }
 
 
