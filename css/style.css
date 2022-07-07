@@ -7,7 +7,7 @@ body{
 
 /* Cover Page ID */
 #cover-page{
-    background-image: url(/images/donation9.jpg);
+    background-image: url(images/donation9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 720px;
@@ -55,7 +55,7 @@ body{
     color: white;
     background-color: tomato;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     padding: 10px;
     margin-top: 20px;
     margin-left: 50%;
@@ -63,6 +63,8 @@ body{
     border: 2px solid aliceblue;
 }
 
-#donate-today{
-    display: flex;
+
+.donation{
+    text-align: center;
+    margin-top: 100px;
 }
