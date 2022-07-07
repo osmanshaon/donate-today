@@ -8,7 +8,7 @@ body{
 /* Cover Page ID */
 #cover-page{
     display: flex;
-    background-image: url(./images/donation9.jpg);
+    background-image: url("/images/donation9.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 720px;
