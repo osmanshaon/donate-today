@@ -8,10 +8,11 @@ body{
 /* Cover Page ID */
 #header{
     display: flex;
-    background-image: url(images/donation-cover.jpg);
+    background-image: url(images/donation.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 720px;
+    background-position: center;
 }
 
 /* Cover Section H1 Tag Spane 1 color */
